@@ -6,7 +6,7 @@ example:
 "room_id": [],
 "number_of_seats_avalible": 10,
 "amenities": ["fan-light-TV.-speaker-AC.", "bolcany", "bed-sofa", "bathroom(shower-bathtub with massager-stem bath) restroom"],
-"price_for_1_hour": "1490Rs"
+"price_for_1_hour": "1090Rs"
 }
 
 2. add customer (post) - localhost:4000/api/customer/add
@@ -15,7 +15,7 @@ example:
 example:
 {
 "name": "kamesh",
-"email": "something@email.com",
+"email": 'kamesh@email.com",
 "address": "90 xxx,street",
 "bookedStatus": true,
 "bookedRoom": "6497df9efc44c221c70338e5",
