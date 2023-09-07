@@ -1,0 +1,29 @@
+1. add room (post) - localhost:4000/api/room/add
+
+example:
+{
+"room_name": "R!",
+"room_id": [],
+"number_of_seats_avalible": 10,
+"amenities": ["fan-light-TV.-speaker-AC.", "bolcany", "bed-sofa", "bathroom(shower-bathtub with massager-stem bath) restroom"],
+"price_for_1_hour": "1490Rs"
+}
+
+2. add customer (post) - localhost:4000/api/customer/add
+   (send room \_id bookedRoom field)
+
+example:
+{
+"name": "kamesh",
+"email": "something@email.com",
+"address": "90 xxx,street",
+"bookedStatus": true,
+"bookedRoom": "6497df9efc44c221c70338e5",
+"date": "1-09-2023",
+"start_time": "10:00Am",
+"end_time": "10:00Pm"
+}
+
+3. show all room (get) - localhost:4000/api/room/all
+
+4. show all customer (get) - localhost:4000/api/customer/all
